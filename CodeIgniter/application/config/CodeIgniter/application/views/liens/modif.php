@@ -20,22 +20,11 @@
 	    				</thead>
 	    				<tbody>					      
 					          <tr>
-					           	 <td>
-					           	 	<input type="text" name="titre" value='<?=($lien->titre) ?>'/>
-					           	 </td>
-					           	<!-- <?php echo "<td><input type='text' name='webmaster' value='".$lien->webmaster."'/></td>\n"; ?>  //une autre manière d'afficher -->
-					           	<td>
-					           		<input type="text" name="webmaster" value="<?= ($lien->webmaster) ?>" />
-					           	</td>
-					            <td>
-					            	<input type="text" name="description" value="<?= $lien->description ?>"/>
-					            </td>
-					            <td>
-					            	<input type="text" name="url" value="<?= $lien->url ?>"/>
-					            </td>
-					            <td>
-					            	<input type="text" name="theme" value="<?= $lien->theme ?>"/>
-					            </td>							                       
+					           	<?php echo "<td><input type='text' name='titre' value='".$lien->titre."'/></td>\n"; ?>
+					           	<?php echo "<td><input type='text' name='webmaster' value='".$lien->webmaster."'/></td>\n"; ?>
+					            <?php echo "<td><input type='text' name='description' value='".$lien->description."'/></td>\n"; ?>
+					            <?php echo "<td><input type='text' name='url' value='".$lien->url."'/></td>\n"; ?>
+					            <?php echo "<td><input type='text' name='theme' value='".$lien->theme."'/></td>\n"; ?>							                       
 					          </tr>					      
 					    </tbody>
 					</table>			
@@ -45,7 +34,7 @@
 					</div>
 						<br />
 						<br />
-						<a href="http://localhost/Test_Code_Igniter/CodeIgniter/index.php/liens/liste">Retour à la liste</a>
+						<a href="http://dl.bienvu.net/ludod/CodeIgniter/index.php/Liens/liste">Retour à la liste</a>
 		</div>   
 		</form>
 	</body>
